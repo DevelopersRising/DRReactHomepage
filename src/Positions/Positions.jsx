@@ -3,46 +3,8 @@ import React from 'react';
 const Positions = () => (
   <div className="container">
     <h1 id="positionsintheorganization">Positions in the organization</h1>
-
-    <hr />
-
-    <ul>
-      <li>
-        <a href="#management-team">Management Team</a>
-      </li>
-
-      <li>
-        <a href="#social-media-manager">Social Media Manager</a>
-      </li>
-
-      <li>
-        <a href="#marketing-manager">Marketing Manager</a>
-      </li>
-
-      <li>
-        <a href="#newsletter-director">Newsletter Director</a>
-      </li>
-
-      <li>
-        <a href="#project-manager">Project Manager</a>
-      </li>
-
-      <li>
-        <a href="#public-relations-manager">Public Relations Manager</a>
-      </li>
-
-      <li>
-        <a href="#partnership-director">Partnership Director</a>
-      </li>
-
-      <li>
-        <a href="#other-positions">Other positions</a>
-      </li>
-    </ul>
-
-    <hr />
-
-    <h2 id="managementteam">Management Team</h2>
+<ol>
+    <li id="managementteam">Management Team</li>
 
     <p>
       The management team consists of Daniel Deutsch (@DDCreationStudios) and Robert Axelsen
@@ -52,7 +14,7 @@ const Positions = () => (
       devsrising@gmail.com.
     </p>
 
-    <h2 id="socialmediamanager">Social Media Manager</h2>
+    <li id="socialmediamanager">Social Media Manager</li>
 
     <p>
       The social media manager is responsible for managing our social media presence, as well as and
@@ -72,7 +34,7 @@ const Positions = () => (
       @robeerob), or send an email to devsrising@gmail.com.
     </p>
 
-    <h2 id="marketingmanager">Marketing Manager</h2>
+    <li id="marketingmanager">Marketing Manager</li>
 
     <p>
       The marketing manager is responsible for both traditional and non-traditional marketing, witch
@@ -85,7 +47,7 @@ const Positions = () => (
       @robeerob), or send an email to devsrising@gmail.com.
     </p>
 
-    <h2 id="newsletterdirector">Newsletter Director</h2>
+    <li id="newsletterdirector">Newsletter Director</li>
 
     <p>
       The newsletter manager is responsible for managing, writing and editing our email newsletter.
@@ -97,7 +59,7 @@ const Positions = () => (
       @robeerob), or send an email to devsrising@gmail.com.
     </p>
 
-    <h2 id="projectmanager">Project Manager</h2>
+    <li id="projectmanager">Project Manager</li>
 
     <p>
       The project manager is responsible for managing and driving our projects forward to
@@ -110,7 +72,7 @@ const Positions = () => (
       @robeerob), or send an email to devsrising@gmail.com.
     </p>
 
-    <h2 id="publicrelationsmanager">Public Relations Manager</h2>
+    <li id="publicrelationsmanager">Public Relations Manager</li>
 
     <p>
       The public relations manager is responsible for representing the organization in public
@@ -123,7 +85,7 @@ const Positions = () => (
       @robeerob), or send an email to devsrising@gmail.com.
     </p>
 
-    <h2 id="partnershipdirector">Partnership Director</h2>
+    <li id="partnershipdirector">Partnership Director</li>
 
     <p>
       The partnership director is responsible for dealing with our partners, such as sponsors,
@@ -136,7 +98,7 @@ const Positions = () => (
       @robeerob), or send an email to devsrising@gmail.com.
     </p>
 
-    <h2 id="otherpositions">Other positions</h2>
+    <li id="otherpositions">Other positions</li>
 
     <p>
       The positions above are not set in stone. So whether you would like to volunteer to help with
@@ -144,6 +106,7 @@ const Positions = () => (
       with us by posting an issue and tagging the management team (@DDCreationStudios or @robeerob),
       or send an email to devsrising@gmail.com.
     </p>
+    </ol>
   </div>
 );
 

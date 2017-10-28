@@ -5,6 +5,5 @@
     "node": true,
     "mocha": true
   },
-  "extends": "airbnb",
-  "parser": "babel-eslint"
+  "extends": "airbnb"
 }
